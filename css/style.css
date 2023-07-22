@@ -16,3 +16,10 @@ body{
     padding: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.titulo{
+    text-align:center;
+    font-size: 2.2rem;
+    /* text-transform: uppercase; */
+}
+
