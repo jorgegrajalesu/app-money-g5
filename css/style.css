@@ -42,9 +42,10 @@ main{
 }
 
 
-.options select{
+.options, select{
     width: 85px;
     padding: 2%;
+    margin-bottom: 5px;
 }
 
 .input input{
