@@ -41,8 +41,8 @@ main{
 }
 
 .options select{
-    width: 85%;
-    padding: 3px;
+    width: 85px;
+    padding: 2%;
 }
 
 .input input{
@@ -65,5 +65,8 @@ main{
     margin-top: -1.5rem;
 }
 
-
+.rate2{
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
 
