@@ -20,6 +20,7 @@ body{
 .titulo{
     text-align:center;
     font-size: 2.2rem;
+    margin-top: -25px;
     /* text-transform: uppercase; */
 }
 
@@ -27,7 +28,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 2rem;
+    margin-top: 3.5rem;
 }
 
 .rate1, .rate2{
@@ -38,7 +39,7 @@ main{
     cursor: pointer;
     padding: 5px;
     align-self: flex-end;
-    font-size: 36px;
+    font-size: 36px !important;
 }
 
 
