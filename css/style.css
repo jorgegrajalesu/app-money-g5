@@ -40,3 +40,30 @@ main{
     align-self: flex-end;
 }
 
+.options select{
+    width: 85%;
+    padding: 3px;
+}
+
+.input input{
+    display: inline-block;
+    width: 150px;
+    height: 35px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    background-color: #000;
+    color: #fff;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: none;
+    appearance: textfield;
+    all: unset;    
+
+}
+
+.rate1{
+    margin-top: -1.5rem;
+}
+
+
+
