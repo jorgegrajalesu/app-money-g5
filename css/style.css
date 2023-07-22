@@ -57,7 +57,8 @@ main{
     margin-top: 1rem;
     border: none;
     appearance: textfield;
-    all: unset;    
+    all: unset;   
+    padding: 5px; 
 
 }
 
@@ -68,5 +69,22 @@ main{
 .rate2{
     margin-top: 0.5rem;
     font-weight: 700;
+}
+
+.target{
+    transform: translateX(-4%);
+}
+
+.result{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color:#04124d;
+    color: #fff;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
