@@ -30,3 +30,13 @@ main{
     margin-top: 2rem;
 }
 
+.rate1, .rate2{
+    color: #000;
+}
+
+.swap{
+    cursor: pointer;
+    padding: 5px;
+    align-self: flex-end;
+}
+
