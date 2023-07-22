@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom,#04124d, #447cb2);
+}
+
+.container{
+    width: 560px;
+    height: 350px;
+    border-radius:50px;
+    background: #fff;
+    box-shadow: 0px 0px 50px rgba(#693030, #033e78, #aeaeae,0.35);
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
