@@ -26,6 +26,11 @@ function populteOptions() {
     // declara una variable para el val, con valor vacio
     let val = '';
     Object.keys(rates).forEach(code => {
-         
+         let str = `<option value="${code}">${code}</option>`;
+        //  incrementar el option hasta la última moneda
+        // val = val + str;
+        val += str;
     })
+    // mostrar los options
+    selects.forEach((s) => (s.innerHTML = val));
 }
