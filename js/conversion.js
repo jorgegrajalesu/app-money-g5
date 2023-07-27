@@ -20,3 +20,12 @@ async function fetchRates(){
     rates = res.rates;
 
 }
+
+// crear la función para las opciones
+function populteOptions() {
+    // declara una variable para el val, con valor vacio
+    let val = '';
+    Object.keys(rates).forEach(code => {
+         
+    })
+}
