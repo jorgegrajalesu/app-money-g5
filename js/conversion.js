@@ -12,12 +12,18 @@ let inpt2 = inputs[1];
 let rates ={};
 let resquestUrl = "https://api.exchangerate.host/latest?base=USD";
 
+// utilizar la función de tomas las monedas de la api
+fetchRates();
+
 // crear la función async para tomar las monedas de la api
 async function fetchRates(){
     // declarar una variable local
     let res = await fetch(resquestUrl);
     res = await res.json();
     rates = res.rates;
+
+    // utilizar la función de las options de monedas
+    populteOptions();
 
 }
 
