@@ -40,3 +40,19 @@ function populteOptions() {
     // mostrar los options
     selects.forEach((s) => (s.innerHTML = val));
 }
+
+// Crear una función para la operación de conversión
+/**
+ * 
+ * @param {Number} val es valor
+ * @param {Number} fromCurr moneda inicial
+ * @param {Number} toCurr moneda a convertir
+ */
+function convert(val,fromCurr,toCurr){
+    // declarar una variables locales
+    let v = (val/rates[fromCurr]) * rates[toCurr];
+    let v1 = v.toFixed(3);
+    // validar con un if terminario
+    return v1 ==0.0 ? v.toFixed(5) : v1;
+
+}
