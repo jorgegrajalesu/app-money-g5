@@ -63,7 +63,9 @@ function displayRate(){
     let v1 = sel1.value;
     let v2 = sel2.value;
 
-    
-
+    // imprimir los valores en los elementos HTML
+    let val = convert(1, v1 , v2);
+    rate1.innerHTML = `1 ${v1} equals-(valor)`;
+    rate2.innerHTML = `${v1} ${v2}`;
 
 }
