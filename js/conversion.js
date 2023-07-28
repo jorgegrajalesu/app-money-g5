@@ -52,7 +52,14 @@ function convert(val,fromCurr,toCurr){
     // declarar una variables locales
     let v = (val/rates[fromCurr]) * rates[toCurr];
     let v1 = v.toFixed(3);
-    // validar con un if terminario
+    // validar con un if ternario
     return v1 ==0.0 ? v.toFixed(5) : v1;
+
+}
+
+// crear la función para conocer las tasas de conversión
+function displayRate(){
+    // declarar variables locales
+    
 
 }
