@@ -60,6 +60,10 @@ function convert(val,fromCurr,toCurr){
 // crear la función para conocer las tasas de conversión
 function displayRate(){
     // declarar variables locales
+    let v1 = sel1.value;
+    let v2 = sel2.value;
+
     
+
 
 }
