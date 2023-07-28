@@ -66,6 +66,12 @@ function displayRate(){
     // imprimir los valores en los elementos HTML
     let val = convert(1, v1 , v2);
     rate1.innerHTML = `1 ${v1} equals-(valor)`;
-    rate2.innerHTML = `${v1} ${v2}`;
+    rate2.innerHTML = `${val} ${v2}`;
 
 }
+
+// listener o evento click del botón, con una función de flecha () =>
+resultBtn.addEventListener('click', () =>{
+    // declarar variables locales
+
+});
