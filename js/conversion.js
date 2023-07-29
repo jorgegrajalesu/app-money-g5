@@ -90,3 +90,15 @@ resultBtn.addEventListener('click', () =>{
 // listener para realizar conversión inversa
 
 selects.forEach(s => s.addEventListener("change",displayRate));
+
+document.querySelector('.swap').addEventListener("click", () =>{
+    // declarar variables
+    let in1 = inpt1.value;
+    let in2 = inpt2.value;
+    let op1 = sel1.value;
+    let op2 = sel2.value;
+
+    inpt2.value = in1;
+    inpt1.value = in2; 
+
+});
