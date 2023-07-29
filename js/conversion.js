@@ -73,5 +73,10 @@ function displayRate(){
 // listener o evento click del botón, con una función de flecha () =>
 resultBtn.addEventListener('click', () =>{
     // declarar variables locales
+    let fromCurr = sel1.value;
+    let fromVal = parseFloat(inpt1.value);
+    let toCurr = sel2.value;
+
+    
 
 });
