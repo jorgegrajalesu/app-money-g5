@@ -77,6 +77,12 @@ resultBtn.addEventListener('click', () =>{
     let fromVal = parseFloat(inpt1.value);
     let toCurr = sel2.value;
 
-    
+    // validar con un condicional if, si hay o no un número y mostrar una alerta
+    if (isNaN(fromVal)) {
+        alert('Ingresar un número, por favor');
+    }else{
+        let cVal = convert(fromVal,fromCurr,toCurr);
+        inpt2.value = cVal;
+    }
 
 });
