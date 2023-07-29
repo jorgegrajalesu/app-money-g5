@@ -97,14 +97,10 @@ document.querySelector('.swap').addEventListener("click", () =>{
     let in2 = inpt2.value;
     let op1 = sel1.value;
     let op2 = sel2.value;
-
     inpt2.value = in1;
-    inpt1.value = in2;
-    
+    inpt1.value = in2;    
     sel2.value = op1;
     sel1.value = op2;
-
-
     //utilizar la función de selección de los valores de monedas  
     displayRate();
 
