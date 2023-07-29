@@ -86,3 +86,7 @@ resultBtn.addEventListener('click', () =>{
     }
 
 });
+
+// listener para realizar conversión inversa
+
+selects.forEach(s => s.addEventListener("change",displayRate));
